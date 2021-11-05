@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>레이아웃 연습</title>
+    <style>
+        *{margin:0; padding: 0;}
+
+        body{
+            font:20px "NanumGothic";
+        }
+
+        #wrap{
+            width: 1200px;
+            height: 700px;
+            margin: 0 auto;
+        }
+
+        #header{
+            height: 100px;
+            background: white;
+        }
+
+        #container{
+            height: 500px;
+            background: #ccc;
+        }
+
+        #aside{
+            width: 400px;
+            height: 700px;
+            background: #D3D5F5;
+            float: left;
+        }
+
+        #contents{
+            width: 800px;
+            height: 700px;
+            background: #FFFA99;
+            float: left;
+        }
+
+        #footer{
+            height: 100px;
+            background: #C8EFD4;
+            clear: both;
+        }
+        .Prime > img{
+            width: 200px;
+            height: 270px;
+
+        }
+        .Prime{
+            margin: 30px;
+        }
+
+        .info{
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">
+            <h1>header</h1>
+        </div>
+        <div id="container">
+
+            <div id="aside">
+                <div class="Prime">
+                    <div><h1>JiYong Lee</h1></div>
+                    <div class="이름"><h3>이지용</h3></div>
+                    <img src="우리집 쿠키.jpg">
+                    <div>Jeonbuk national university</div>
+                    <div>Major : SmartFarm</div>
+                    <div>E-mail : cams1002@naver.com</div>
+                </div>
+            </div>
+
+            <div id="contents">
+                <div class="info">
+                    <h4 class="intro">안녕하세요! 저는 전북대학교를 다니고 있는 이지용입니다. 현재 스마트팜학과 1학년 재학 중 입니다. </h4>
+                    <h2 class="smartfarm">스마트팜이란?</h2>
+                    <h4 class="info_1">스마트팜이란 기존 농업에 IoT나 AI같은 현대 과학기술을 접목시켜 더 적은 자원으로 더 많은 수확을 얻을 수 있는 팜을 말합니다.</h4>
+                    <h4 class="info_2">현재 1학년이기 때문에 스마트팜에 대해서 많은 것을 알지는 못하지만, 
+                                    스마트팜의 전반적인 기술들을 알 수 있는 디지털 농업 개론 수업을 듣게 되면서 기술에 대한 저의 좁은 시야가 뚫릴 수 있게 되어서 감사하고 있습니다.</h4>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <h1>footer</h1>
+        </div>
+    </div>
+
+</body>
+</html>
